@@ -15,7 +15,6 @@ class player(animation.animate):  # définir objet comme un image objet
         self.rect = self.image.get_rect()  # céer rectangle de capteur
 
         self.game = game  # récupérer la class game
-
         self.rect.y = 500
 
     def damage(self, damage):
